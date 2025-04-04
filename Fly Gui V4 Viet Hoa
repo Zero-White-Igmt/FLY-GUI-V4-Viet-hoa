@@ -209,7 +209,7 @@ UserInputService.InputBegan:Connect(function(input, gameProcessed)
 			Frame.Visible = true
 			isSmalled = false
 		elseif isWaiting == true then
-			game.Players.LocalPlayer:Kick("GameEnd")		
+			game.Players.LocalPlayer:Kick("Thông báo bạn đã chơi ngu vì nhấn nút Shift phải😂")		
 		end
     end
 end)
